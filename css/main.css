@@ -13,11 +13,11 @@
     --primary-text-color: #212121;
     --section-text-color: #757575;
     --accent-color: #2196F3;
-    --primary-bg-color: #FFFFFF;
+    --primary-white-color: #FFFFFF;
 }
 
 body {
-    background-color: var(--primary-bg-color);
+    background-color: var(--primary-white-color);
     color: var(--primary-text-color);
 }
 
@@ -49,7 +49,7 @@ body {
 /* Button */
 
 .button {
-    color: #FFFFFF;
+    color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
 /* Contacts*/
@@ -70,7 +70,7 @@ body {
 }
 
 .hero-title {
-    color: #FFFFFF;
+    color: var(--primary-white-color);
 }
 
 /* Section */
@@ -90,4 +90,18 @@ body {
 /* Our team */
 .team-list .item {
     color: var(--section-text-color);
+}
+
+/* Footer */
+
+.footer{
+    background-color: #2F303A;
+}
+
+.adress{
+    color: var(--primary-white-color);
+}
+
+.contacts-list .item {
+    color: #FFFFFF60;
 }
