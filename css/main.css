@@ -77,9 +77,16 @@ body {
 }
 
 .link.current {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 /* Contacts*/
+
+.contacts-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+}
 
 .contacts .link {
   color: var(--secondary-txt-color);
@@ -107,6 +114,10 @@ body {
 }
 
 /* Button */
+.button:hover
+.button:focus {
+    
+}
 
 .button {
   font-weight: 700;
@@ -154,8 +165,8 @@ body {
 /* Our team */
 
 .section-team {
-    background-color: #f5f4fa;
-  }
+  background-color: #f5f4fa;
+}
 
 .team-title {
   font-weight: 500;
@@ -180,7 +191,7 @@ body {
 }
 
 .footer-address {
-    font-style: normal;
+  font-style: normal;
 }
 
 .address {
@@ -191,8 +202,5 @@ body {
   color: var(--light-white-color);
 }
 
-.contacts-list .item {
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  color: #ffffff60;
-}
+/* Portfolio */
+
