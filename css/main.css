@@ -136,6 +136,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-txt-color);
   background-color: var(--light-grey-color);
+  cursor: pointer;
 }
 
 /* Sections */
