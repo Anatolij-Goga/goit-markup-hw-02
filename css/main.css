@@ -216,9 +216,9 @@ address {
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
 }
+
 .projects-item {
   font-size: 16px;
   line-height: calc(30 / 16);
-  letter-spacing: 0.03em;
   color: var(--secondary-txt-color);
 }
