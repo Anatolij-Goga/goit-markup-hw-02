@@ -26,7 +26,7 @@
 body {
   font-family: var(--main-font);
   font-size: 14px;
-  line-height: calc(14 / 16);
+  line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   color: var(--main-txt-color);
   background-color: var(--main-bg-color);
@@ -49,7 +49,7 @@ body {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: calc(31 / 26);
   color: var(--logo-color);
   text-decoration: none;
 }
@@ -63,7 +63,7 @@ body {
 .site-nav .list {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 }
 
@@ -118,8 +118,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
-  display: flex;
-  align-items: center;
   letter-spacing: 0.06em;
   color: var(--light-white-color);
   background-color: var(--accent-bg-color);
@@ -132,7 +130,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-txt-color);
   background-color: var(--light-grey-color);
@@ -191,6 +188,10 @@ body {
   background-color: var(--footer-bg-color);
 }
 
+.footer .logo {
+  color: var(--light-white-color);
+}
+
 address {
   font-style: inherit;
 }
@@ -202,6 +203,9 @@ address {
   color: var(--light-white-color);
 }
 
+.footer .link {
+  color: rgba(255, 255, 255, 0.6);
+}
 /* Portfolio */
 
 .projects .button:hover,
